@@ -47,7 +47,7 @@ function App() {
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
     >
       <div
-        className="min-h-screen py-8"
+        className="min-h-screen py-8 px-5"
         style={{
           background: 'linear-gradient(to right, #C06C84, #6C5B7B, #355C7D)',
         }}
@@ -55,7 +55,7 @@ function App() {
        <div className="w-full max-w-2xl mx-auto bg-white/10 backdrop-blur-md border border-white/20 shadow-lg rounded-lg px-4 py-3 text-white">
 
           <h1 className="text-2xl font-bold text-center mb-8 mt-2">
-            Today's Plan "Table of Content"
+            Today's Plan
           </h1>
           <div className="mb-4">
             <TodoForm />
